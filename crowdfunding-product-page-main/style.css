@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Commissioner", sans-serif;
+}
+
+header {
+  background-image: url(/crowdfunding-product-page-main/images/image-hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 1000%;
+}
+
+main {
+  background: hsl(0deg, 0%, 48%);
+}
+
+header nav {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3vh;
+}
+header nav ul {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
