@@ -1,7 +1,6 @@
 .section1{
     background-color: white;
-    border-radius: 5px;
-    transform: translateY(-20%);
+    border-radius: 8px;
     padding-bottom: 3rem;
     .imgContainer{
         display: flex;
@@ -40,12 +39,52 @@
                 }
             }
             .bookmarkContainer{
-                // width: 100%;
-                // margin: 0 auto;
                 img{
                     width: 80%;
                 }
             }
         }
     }
+}
+
+.section2{
+    background-color: white;
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 8px;
+    div{
+        // padding-bottom: 1rem;
+        margin-top: 1rem;
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 0.7rem;
+            font-weight: 500;
+            margin-top: .5rem;
+            color: $darkGray;
+        }
+        .bottomLine{
+            border-bottom: 1px solid $darkGray;
+            width: 20%;
+            margin: 2rem auto;
+        }
+    }
+   .loadingContainer{
+    width: 90%;
+    height: 10px;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 90%);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    .loading{
+        width: 70%;
+        height: 10px;
+        background-color: $moderateCyan;
+        border-radius: 1rem;
+    }
+   } 
 }

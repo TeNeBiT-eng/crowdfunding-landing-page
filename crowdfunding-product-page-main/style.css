@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: hsl(0deg, 0%, 89%);
+  background-color: hsl(0deg, 0%, 90%);
 }
 
 @media (min-width: 768px) {
@@ -48,12 +48,12 @@ header nav ul {
 main {
   width: 90%;
   margin: 0 auto;
+  transform: translateY(-10%);
 }
 
 .section1 {
   background-color: white;
-  border-radius: 5px;
-  transform: translateY(-20%);
+  border-radius: 8px;
   padding-bottom: 3rem;
 }
 .section1 .imgContainer {
@@ -91,4 +91,45 @@ main {
 }
 .section1 .content .btn_bookmark .bookmarkContainer img {
   width: 80%;
+}
+
+.section2 {
+  background-color: white;
+  margin-top: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 8px;
+}
+.section2 div {
+  margin-top: 1rem;
+}
+.section2 div h1 {
+  text-align: center;
+}
+.section2 div p {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  color: hsl(0deg, 0%, 48%);
+}
+.section2 div .bottomLine {
+  border-bottom: 1px solid hsl(0deg, 0%, 48%);
+  width: 20%;
+  margin: 2rem auto;
+}
+.section2 .loadingContainer {
+  width: 90%;
+  height: 10px;
+  border-radius: 1rem;
+  background-color: hsl(0deg, 0%, 90%);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.section2 .loadingContainer .loading {
+  width: 70%;
+  height: 10px;
+  background-color: hsl(176deg, 50%, 47%);
+  border-radius: 1rem;
 }/*# sourceMappingURL=style.css.map */
