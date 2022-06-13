@@ -1,0 +1,51 @@
+.section1{
+    background-color: white;
+    border-radius: 5px;
+    transform: translateY(-20%);
+    padding-bottom: 3rem;
+    .imgContainer{
+        display: flex;
+        justify-content: center;
+        transform: translateY(-50%);
+    }
+    .content{
+        h1{
+            text-align: center;
+            width: 90%;
+            margin: 0 auto;
+        }
+        p{
+            text-align: center;
+            width: 95%;
+            margin: 0 auto;
+            line-height: 1.5;
+            padding-top: 1rem;
+            color: $darkGray;
+        }
+        .btn_bookmark{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 1rem;
+            padding-top: 2rem;
+            .btnContainer{
+                a{
+                    button{
+                        color: white;
+                        padding: 1rem 2.5rem;
+                        border-radius: 1.5rem;
+                        border: none;
+                        background-color: $moderateCyan;
+                    }
+                }
+            }
+            .bookmarkContainer{
+                // width: 100%;
+                // margin: 0 auto;
+                img{
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

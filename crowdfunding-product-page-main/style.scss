@@ -1,11 +1,11 @@
-@use "styles/abstracts/variables";
+@import "styles/abstracts/variables";
 
-@use "styles/base/button";
-@use "styles/base/reset";
-@use "styles/base/typography";
+@import "styles/base/button";
+@import "styles/base/reset";
+// @import "styles/base/typography";
 
-@use "styles/components/media";
+@import "styles/components/media";
 
-@use "styles/layout/header";
-@use "styles/layout/main";
-@use "styles/layout/section";
+@import "styles/layout/header";
+@import "styles/layout/main";
+@import "styles/layout/section";

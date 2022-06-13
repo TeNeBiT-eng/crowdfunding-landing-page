@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+    header{
+        nav{
+            width: 80% !important;
+            padding-top: 2rem !important;
+            ul{
+                display: flex !important;
+                column-gap: 2rem;
+                li{
+                    a{
+                        color: rgba(255, 255, 255, 0.9);
+                        text-decoration: none;
+                    }
+                }
+            }
+            .hamburgerMenu{
+                display: none;
+            }
+        }
+    }
+}
