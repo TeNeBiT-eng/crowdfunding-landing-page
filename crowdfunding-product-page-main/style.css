@@ -132,4 +132,67 @@ main {
   height: 10px;
   background-color: hsl(176deg, 50%, 47%);
   border-radius: 1rem;
+}
+
+.section3 {
+  background-color: white;
+  margin-top: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  border-radius: 8px;
+}
+.section3 h1 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.section3 p {
+  width: 90%;
+  margin: 0 auto;
+  color: hsl(0deg, 0%, 48%);
+  line-height: 1.7;
+}
+.section3 .secondParagraph {
+  padding-top: 2rem;
+}
+.section3 .subSection1 {
+  border: 1.5px solid hsl(0deg, 0%, 90%);
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 8px;
+  margin-top: 2.5rem;
+  padding-bottom: 1.56rem;
+}
+.section3 .subSection1 .introHeader {
+  padding-bottom: 1rem;
+}
+.section3 .subSection1 .introHeader h1 {
+  font-size: 1rem;
+  padding-bottom: 0 !important;
+}
+.section3 .subSection1 .introHeader p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(176deg, 50%, 47%);
+}
+.section3 .subSection1 .amountLeft {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+.section3 .subSection1 .btnContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.section3 .subSection1 .btnContainer a button {
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 1.5rem;
+  border: none;
+  background-color: hsl(176deg, 50%, 47%);
 }/*# sourceMappingURL=style.css.map */
