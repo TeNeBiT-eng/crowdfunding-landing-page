@@ -111,7 +111,7 @@
     padding-top: 2rem;
   }
 
-  .subSection1 {
+  .subSection {
     border: 1.5px solid hsl(0, 0%, 90%);
     width: 90%;
     margin: 0 auto;
@@ -126,8 +126,8 @@
       }
       p {
         font-size: 1rem;
-        font-weight: 500;
-        color: $moderateCyan;
+        font-weight: 600;
+        color: $darkCyan;
       }
     }
     .amountLeft {
@@ -148,6 +148,52 @@
           border-radius: 1.5rem;
           border: none;
           background-color: $moderateCyan;
+        }
+      }
+    }
+  }
+  .subSection1 {
+    border: 1.5px solid hsl(0, 0%, 95%);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 2.5rem;
+    padding-bottom: 1.56rem;
+    .introHeader {
+      padding-bottom: 1rem;
+      h1 {
+        font-size: 1rem;
+        padding-bottom: 0 !important;
+        color: $darkGray;
+      }
+      p {
+        font-size: 1rem;
+        font-weight: 500;
+        color: $moderateCyan;
+      }
+    }
+    .amountLeft {
+      display: flex;
+      align-items: center;
+      column-gap: .5rem;
+      width: 90%;
+      margin: 0 auto;
+      padding: 1.5rem 0;
+      h2, p{
+        color: $darkGray;
+      }
+    }
+    .btnContainer {
+        width: 90%;
+        margin: 0 auto;
+      a {
+        button {
+          color: white;
+          padding: 1rem 2.5rem;
+          border-radius: 1.5rem;
+          border: none;
+          font-size: 500;
+          background-color: hsl(0, 0%, 80%);
         }
       }
     }
