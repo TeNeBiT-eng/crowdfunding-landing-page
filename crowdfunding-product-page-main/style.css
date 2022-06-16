@@ -96,6 +96,11 @@ main {
   border-radius: 1.5rem;
   border: none;
   background-color: hsl(176deg, 50%, 47%);
+  transition: 0.4s ease;
+}
+.section1 .content .btn_bookmark .btnContainer a button:hover {
+  background-color: hsl(176deg, 72%, 28%);
+  cursor: pointer;
 }
 .section1 .content .btn_bookmark .bookmarkContainer img {
   width: 80%;
@@ -203,6 +208,11 @@ main {
   border-radius: 1.5rem;
   border: none;
   background-color: hsl(176deg, 50%, 47%);
+  transition: 0.4s ease;
+}
+.section3 .subSection .btnContainer a button:hover {
+  background-color: hsl(176deg, 72%, 28%);
+  cursor: pointer;
 }
 .section3 .subSection1 {
   border: 1.5px solid hsl(0deg, 0%, 93%);

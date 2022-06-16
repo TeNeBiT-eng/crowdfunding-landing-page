@@ -35,6 +35,11 @@
             border-radius: 1.5rem;
             border: none;
             background-color: $moderateCyan;
+            transition: .4s ease;
+            &:hover{
+              background-color: $darkCyan;
+              cursor: pointer;
+            }
           }
         }
       }
@@ -148,6 +153,11 @@
           border-radius: 1.5rem;
           border: none;
           background-color: $moderateCyan;
+          transition: .4s ease;
+          &:hover{
+            background-color: $darkCyan;
+            cursor: pointer;
+          }
         }
       }
     }
@@ -194,6 +204,7 @@
           border: none;
           font-size: 500;
           background-color: hsl(0, 0%, 80%);
+          
         }
       }
     }
