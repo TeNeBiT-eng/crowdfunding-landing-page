@@ -11,6 +11,9 @@ body {
 }
 
 @media (min-width: 768px) {
+  header {
+    background-image: url(/crowdfunding-product-page-main/images/image-hero-desktop.jpg) !important;
+  }
   header nav {
     width: 80% !important;
     padding-top: 2rem !important;
@@ -26,6 +29,11 @@ body {
   }
   header nav .hamburgerMenu {
     display: none;
+  }
+
+  main {
+    max-width: 50% !important;
+    transform: translateY(-4.5%) !important;
   }
 }
 header {
@@ -46,7 +54,7 @@ header nav ul {
 }
 
 main {
-  width: 90%;
+  max-width: 90%;
   margin: 0 auto;
   transform: translateY(-2%);
 }
