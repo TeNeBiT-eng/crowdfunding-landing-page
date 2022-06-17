@@ -11,6 +11,10 @@
                     a{
                         color: rgba(255, 255, 255, 0.9);
                         text-decoration: none;
+                        transition: .4s ease;
+                        &:hover{
+                            color: white;
+                        }
                     }
                 }
             }
@@ -23,5 +27,42 @@
     main{
         max-width: 50% !important;
         transform: translateY(-4.5%) !important;
+        .section1{
+            .content{
+                .btn_bookmark{
+                    .bookmarkContainer{
+                            background-color: hsl(0deg, 0%, 48%);
+                            border-radius: 2.5rem;
+                            border: none;
+                            display: flex;
+                            align-items: center;
+                            padding-right: 1rem;
+                            transition: .4s ease;
+                            &:hover{
+                                cursor: pointer;
+                                background-color: hsl(0, 0%, 80%);
+                            }
+                            &:hover img{
+                                color: $darkCyan;
+                            }
+                            &:hover .bookmark p{
+                                font-size: 900;
+                                color: $darkCyan;
+                            }
+                            img{
+                                width: 36% !important;
+                            }
+                        .bookmark{
+                            display: block;
+                            p{
+                                padding-top: 0 !important;
+                                padding-left: .5rem;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

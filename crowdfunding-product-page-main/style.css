@@ -26,6 +26,10 @@ body {
   header nav ul li a {
     color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
+    transition: 0.4s ease;
+  }
+  header nav ul li a:hover {
+    color: white;
   }
   header nav .hamburgerMenu {
     display: none;
@@ -34,6 +38,37 @@ body {
   main {
     max-width: 50% !important;
     transform: translateY(-4.5%) !important;
+  }
+  main .section1 .content .btn_bookmark .bookmarkContainer {
+    background-color: hsl(0deg, 0%, 48%);
+    border-radius: 2.5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    transition: 0.4s ease;
+  }
+  main .section1 .content .btn_bookmark .bookmarkContainer:hover {
+    cursor: pointer;
+    background-color: hsl(0deg, 0%, 80%);
+  }
+  main .section1 .content .btn_bookmark .bookmarkContainer:hover img {
+    color: hsl(176deg, 72%, 28%);
+  }
+  main .section1 .content .btn_bookmark .bookmarkContainer:hover .bookmark p {
+    font-size: 900;
+    color: hsl(176deg, 72%, 28%);
+  }
+  main .section1 .content .btn_bookmark .bookmarkContainer img {
+    width: 36% !important;
+  }
+  main .section1 .content .btn_bookmark .bookmarkContainer .bookmark {
+    display: block;
+  }
+  main .section1 .content .btn_bookmark .bookmarkContainer .bookmark p {
+    padding-top: 0 !important;
+    padding-left: 0.5rem;
+    color: white;
   }
 }
 header {
@@ -104,6 +139,9 @@ main {
 }
 .section1 .content .btn_bookmark .bookmarkContainer img {
   width: 80%;
+}
+.section1 .content .btn_bookmark .bookmarkContainer .bookmark {
+  display: none;
 }
 
 .section2 {
